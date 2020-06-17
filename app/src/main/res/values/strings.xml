@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">weather</string>
+    <string name="conditon">Conditon :</string>
+    <string name="c">C</string>
+    <string name="o">o</string>
+    <string name="search_your_area">Search your area</string>
+    <string name="pressure_no">Pressure_no</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunrise_no">Sunrise_no</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="longe">long :</string>
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="lat">lat :</string>
+    <string name="sunset">sunset</string>
+    <string name="sunset_no">sunset_no</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_no">humidity_no</string>
+    <string name="wind">Wind</string>
+    <string name="wind_no">wind_no</string>
+</resources>
