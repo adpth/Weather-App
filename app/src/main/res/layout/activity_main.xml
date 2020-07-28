@@ -212,7 +212,7 @@
         android:id="@+id/cardView2"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:background="#F6F3EF"
         app:cardCornerRadius="7dp"
         app:layout_constraintEnd_toEndOf="parent"
