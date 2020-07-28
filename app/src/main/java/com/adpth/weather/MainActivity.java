@@ -21,6 +21,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    String API = "3dc8a8be15b581b5a6e240a35e2b647a";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
         String City = binding.yourCity.getText().toString();
         @Override
         protected String doInBackground(String... strings) {
-            String API = "3dc8a8be15b581b5a6e240a35e2b647a";
             return HttpRequest.excuteGet("https://api.openweathermap.org/data/2.5/weather?q=" + City + "&units=metric&appid=" + API);
         }
 
