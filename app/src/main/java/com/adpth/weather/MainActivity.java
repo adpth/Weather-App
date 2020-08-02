@@ -21,7 +21,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    String API = "3dc8a8be15b581b5a6e240a35e2b647a";
+    String API = "Your Weather API key from openweathermap website";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
